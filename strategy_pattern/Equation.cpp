@@ -14,3 +14,7 @@ Equation::~Equation() {
 void Equation::Solve() {
     fSolver->Solve();
 }
+
+void Equation::SetSolver(ISolver *solver) {
+    fSolver = solver;
+}

@@ -13,6 +13,7 @@ public:
     virtual ~Equation();
 
     void Solve();
+    void SetSolver(ISolver*);
 
 private:
     ISolver* fSolver;
